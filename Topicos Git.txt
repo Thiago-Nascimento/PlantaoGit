@@ -1,0 +1,57 @@
+Commit - Versão salva do projeto
+
+git status - Mostra o estado atual do repositório
+git log - Mostra os commits (versões) feitos
+git show <código do commit> - Mostra o detalhe de um commit
+
+git init - Inicia o versionamento em um projeto
+git add . - Adiciona os arquivos à fila de salvamento
+git commit -m "Descrição" - Cria o commit (versão) do projeto
+
+git remote add origin <link do repositório do github> - Vincular seu projeto local com o repositório do github
+
+git remote remove origin - Remove configuração de repositório do github
+git branch -M main - Troca o nome da branch principal para "main"
+git push -u origin main - Envia os commits (a versão) do projeto local, para a nuvem (Github)
+_____________________________________________________
+Rotina do Desenvolvedor
+
+git add .
+git commit -m "Descrição"
+git push origin main
+_____________________________________________________
+Git Credential Manager
+
+Username do github: Thiago-Nascimento
+Senha: ******
+
+Token - Personal Access Token
+_____________________________________________________
+Ambientes
+
+Produção - Aplicação que o usuário tem acesso
+Desenvolvimento/Homologação - Ambiente de teste e correção de bugs, antes de ir para a Produção
+
+Branches - Ambientes diferentes
+
+*Git Flow
+main/master - Produção
+develop - Homologação
+login - Branch da funcionalidade
+cadastro - Branch da funcionalidade
+
+git branch -a - Listar as branches existentes
+git branch <nome da branch> - Cria uma branch (ramificação)
+git checkout <nome da branch> - Muda para a branch <nome da branch>
+
+Merge - união de dois ambientes, Ex. junção de códigos do amb. homologação com o amb. de produção
+
+
+
+
+
+
+
+
+
+
